@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website për AdSense</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+        }
+        .ads {
+            background-color: #eaeaea;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mirësevini në Faqen Tonë!</h1>
+        <p>Ky është një shembull i thjeshtë për të treguar si mund të vendosni reklama Google AdSense në faqen tuaj.</p>
+    </header>
+
+    <section class="content">
+        <h2>Rreth Nesh</h2>
+        <p>Kjo faqe është një shembull që mund të përdorni për të lidhur me Google AdSense dhe fituar nga reklamat.</p>
+    </section>
+
+    <section class="ads">
+        <h3>Reklama nga Google AdSense</h3>
+        <!-- Vendosni këtu kodin e reklamave AdSense -->
+        <div id="adsense">
+            <!-- Reklama AdSense do të shfaqen këtu -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Faqja Juaj</p>
+    </footer>
+</body>
+</html>
