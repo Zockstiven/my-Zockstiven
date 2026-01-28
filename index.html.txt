@@ -1,64 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sq">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Website për AdSense</title>
+    <title>MyZocker | Gaming</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            background-color: #050505;
+            color: #00ff41; 
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
             margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
             text-align: center;
         }
-        .content {
-            padding: 20px;
+        .container {
+            border: 2px solid #00ff41;
+            padding: 40px;
+            background: rgba(0, 255, 65, 0.05);
+            box-shadow: 0 0 20px rgba(0, 255, 65, 0.2);
+            border-radius: 15px;
         }
-        .ads {
-            background-color: #eaeaea;
-            padding: 20px;
-            margin-top: 20px;
-            text-align: center;
+        h1 { font-size: 3rem; margin-bottom: 10px; letter-spacing: 5px; }
+        p { color: white; font-size: 1.1rem; margin-bottom: 30px; }
+        .btn {
+            background-color: #00ff41;
+            color: black;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            text-transform: uppercase;
+            transition: 0.3s;
         }
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            text-align: center;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+        .btn:hover {
+            background-color: white;
+            box-shadow: 0 0 15px white;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Mirësevini në Faqen Tonë!</h1>
-        <p>Ky është një shembull i thjeshtë për të treguar si mund të vendosni reklama Google AdSense në faqen tuaj.</p>
-    </header>
-
-    <section class="content">
-        <h2>Rreth Nesh</h2>
-        <p>Kjo faqe është një shembull që mund të përdorni për të lidhur me Google AdSense dhe fituar nga reklamat.</p>
-    </section>
-
-    <section class="ads">
-        <h3>Reklama nga Google AdSense</h3>
-        <!-- Vendosni këtu kodin e reklamave AdSense -->
-        <div id="adsense">
-            <!-- Reklama AdSense do të shfaqen këtu -->
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2026 Faqja Juaj</p>
-    </footer>
+    <div class="container">
+        <h1>MYZOCKER</h1>
+        <p>Mirë se vini në botën time të lojërave!<br>Gameplay, komente dhe shumë humor.</p>
+        <a href="VENDOS_LINKUN_E_KANALIT_TEND_KETU" target="_blank" class="btn">Shko në YouTube</a>
+    </div>
 </body>
 </html>
